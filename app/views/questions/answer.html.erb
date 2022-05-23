@@ -1,0 +1,18 @@
+
+<div class="container">
+  <h1>Messages</h1>
+
+  <div class="bckg-yellow div-layout">
+    <%= @question %>
+    <p><em>-You</em></p>
+  </div>
+
+  <div class="bckg-gray div-layout">
+    <%= @coach_answer %>
+    <p><em>-Your coach</em></p>
+  </div>
+
+  <div class="button">
+    <%= link_to('Ask a new question', ask_path) %>
+  </div>
+</div>
